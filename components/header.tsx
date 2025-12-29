@@ -93,7 +93,7 @@ export default function Header() {
                 <div className="container mx-auto px-4 py-6">
                   <div className="flex justify-between items-center mb-8">
                     <div className="flex items-center gap-2">
-                      <Image src="/profiles.png" alt="Logo" width={40} height={40} className="h-10 w-auto rounded-full" />
+                      <Image src="/LOGO-AR.png" alt="Logo" width={40} height={40} className="h-10 w-auto rounded-full" />
                       <span className="font-bold text-sm">3Capital </span>
                     </div>
                     <button

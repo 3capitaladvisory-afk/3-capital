@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Logo and Description Section */}
           <div className="lg:col-span-5 order-1 md:order-1">
             <div className="flex flex-col items-center md:items-start">
-              <img src="/logo2.png" alt={t('logoAlt')} className="w-[72px] md:w-[92px] h-[72px] md:h-[92px] object-contain mb-4 md:mb-6 rounded-full" />
+              <img src="/LOGO EN.png" alt={t('logoAlt')} className="w-[72px] md:w-[92px] h-[72px] md:h-[92px] object-contain mb-4 md:mb-6 rounded-full" />
               <p className="text-[#656565] text-sm md:text-base leading-[24px] md:leading-[32px]   mb-6 md:mb-8 max-w-[467px]" >
                 {t('description')}
               </p>

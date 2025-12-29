@@ -63,7 +63,27 @@ export default function ProjectsSection({ showButton = true }: { showButton?: bo
     {
       key: 'erpImplementation',
       image: '/article2.jpg'
-    }
+    },
+    {
+      key: 'establishingCompanies',
+      image: '/establishing-companies.jpg'
+    },
+    {
+      key: 'CFO-Services',
+      image: '/CFO-Services.jpg'
+    },
+    {
+      key: 'review-financial-statements',
+      image: '/review-financial-statements.jpg'
+    },
+    {
+      key: 'tax-consulting',
+      image: '/tax-consulting.jpg'
+    },
+    {
+      key: 'back-office',
+      image: '/back-office.jpg'
+    },
   ]
 
   const allServices = Array(3).fill(null).flatMap(() =>

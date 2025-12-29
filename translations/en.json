@@ -17,8 +17,8 @@
   "hero": {
     "welcome": "Welcome to",
     "title": "3Capital ",
-    "subtitle": "Financial & Business Consulting",
-    "description": "We provide comprehensive consulting solutions in finance and investment, with over 17 years of experience in providing specialized financial consulting for companies and individuals, focusing on maximizing investment returns with minimal risks...",
+    "subtitle": "Certified Public Accountants, Financial and Tax Consultants",
+    "description": "We offer integrated and intelligent consulting solutions in the fields of accounting, auditing, taxation, finance and investment, with over 17 years of experience in providing specialized financial advice to companies and individuals, focusing on achieving maximum return on investment with the lowest possible risk...",
     "bookConsultation": "Book Consultation",
     "investment": "Investment",
     "finance": "Finance",
@@ -48,14 +48,14 @@
     "contactUs": "Contact Us",
     "heading": "We're always here to answer any questions you may have",
     "email": "Email",
-    "mobile": "You can contact us from Saudi Arabia on this number",
-    "phone": "You can contact us from Egypt on this number",
+    "mobile": "mobile",
+    "phone": "phone",
     "workingHours": "Working-Hours",
     "hours": "8:00 AM - 5:00 PM",
     "weekend": "Friday closed"
   },
   "footer": {
-    "logoAlt": "   3Capital  logo",
+    "logoAlt": " 3Capital logo",
     "description": "We provide strategic advice for making informed investment decisions. We prioritize business compliance with laws and standards to protect investments.",
     "companyProfile": "Company Profile",
     "quickLinks": "Quick Links",
@@ -72,14 +72,14 @@
     "copyright": "All rights reserved to  3Capital  financial consultants",
     "email": "info@3capital-advisory.com",
     "phone": "20-1029700534+",
-    "location": "10 Men Ramadan - Cairo"
+    "location": "10th of Ramadan - 10th District - Next to the roundabout of Misr El Nour Company"
   },
   "whyUs": {
     "badge": "Why Us?",
     "title": "Why Do Investors Collaborate with Us?",
     "description": "We provide strategic advice for informed investment decisions. We prioritize business compliance with laws and standards to protect investments. We work with passion and integrity with meticulous attention to detail, providing customized client-focused services through dedicated financial experts who deeply understand your business.",
     "companyName": "Call Us ",
-    "location": "10 Men Ramadan - Cairo",
+    "location": "10th of Ramadan - 10th District - Next to the roundabout of Misr El Nour Company",
     "email": "info@3capital-advisory.com",
     "phone": "20-1029700534+"
   },
@@ -141,7 +141,29 @@
       "erpImplementation": {
         "title": "ERP Implementation",
         "description": "Implementing ERP systems and digital transformation for companies, transitioning from traditional systems to digital processes for financial, administrative, and operational reporting, increasing work efficiency, improving decision-making, and reducing production costs"
+      },
+      "establishingCompanies": {
+        "title": "Company Formation in Egypt",
+       "description": "Company formation and legal and administrative structuring. We provide comprehensive company formation services across all business types, ensuring a sound legal and financial foundation from day one."
+      },
+      "CFO-Services": {
+        "title": "Outsourced CFO Services",
+        "description": "We provide Outsourced Chief Financial Officer (CFO) services for companies that require professional financial management without the cost of hiring a full-time CFO."
+      },
+      "review-financial-statements": {
+         "title": "Financial Statements Review and Audit",
+         "description": "We provide financial statements review and audit services in accordance with Egyptian and International Standards on Auditing (ISA), ensuring accuracy, fairness, and reliable presentation of the company’s true financial position and operating results."
+      },
+      "tax-consulting": {
+        "title": "Tax Consulting and Tax Return Preparation",
+        "description": "We provide comprehensive tax consulting services and the preparation and filing of tax returns for companies and individuals in Egypt, ensuring full compliance with Egyptian tax laws, minimizing tax risks, and achieving optimal tax efficiency within the legal framework."
+      },
+      "back-office": {
+         "title": "Remote Accounting Back Office Services",
+  "description": "A smart solution for managing financial operations with greater efficiency and lower cost. In light of rising employment costs, the shortage of mid-level talent, and increasing pressure on finance departments, our remote accounting back office services from Egypt provide a practical and professional solution for companies in Saudi Arabia and the Gulf region."
       }
+
+      
     }
   },
   "financial": {
@@ -680,8 +702,8 @@
       "badge": "CEO Message",
       "name": "Mr. Sameh Said ",
       "imageAlt": "CEO Image",
-      "paragraph1": "Sameh Said, CEO of 3Capital Financial Consulting, has over 17 years of experience in financial, administrative, and strategic management, including serving as CFO in major holding companies. He possesses extensive expertise across various industrial, commercial, contracting, service, and investment sectors. He is a Certified Management Accountant (CMA) from the USA, a Certified Public Accountant (CPA) from Egypt, and holds certifications in digital transformation and Oracle implementation in large companies.",
-      "paragraph2": "We work to accelerate business development in emerging markets, and reduce investment risks by leveraging promising opportunities that align with Vision 2030 initiatives.",
+       "paragraph1": "The Chief Executive Officer of 3Capital Chartered Accountants and Legal Auditors & Financial and Tax Advisory, with over 17 years of experience in auditing and financial, administrative, and strategic management. His experience includes serving as Chief Financial Officer for large groups and as Financial Manager in major holding and large-scale companies. He has extensive expertise across industrial, commercial, contracting, services, and investment sectors. He is a Registered Auditor for joint-stock companies in the Arab Republic of Egypt, holds the Certified Management Accountant (CMA-US) designation from the United States, a Diploma in International Financial Reporting Standards (IFRS), and certifications in Digital Transformation implementation and Oracle system implementation in large corporations.",
+  "paragraph2": "We work to accelerate business development for startups and small and medium-sized enterprises, and to reduce investment risks by leveraging promising opportunities aligned with Vision 2030 initiatives.",
       "shortName": "Sameh Said",
       "position": "CEO"
     }
