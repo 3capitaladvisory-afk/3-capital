@@ -4,6 +4,9 @@
     "subtitle": "Your trusted partner in financial and business consulting services"
   },
   "nav": {
+    "logo": "/LOGO EN.png",
+    "brand": "3Capital",
+    "subtitle": "Certified Public Accountants and Financial Advisors",
     "home": "Home",
     "about": "About",
     "services": "Services",
@@ -11,8 +14,8 @@
     "whyUs": "Why Us",
     "library": "Library",
     "financial": "Financial Consulting",
-    "hiring": "Hiring",
-    "certificates": "Certificates"
+    "hiring": "Our team",
+    "certificates": "hiring"
   },
   "hero": {
     "welcome": "Welcome to",

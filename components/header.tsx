@@ -32,13 +32,31 @@ export default function Header() {
         <div className="container mx-auto px-3 sm:px-4 py-2 sm:py-3 md:py-4">
           <div className="flex justify-between items-center relative">
             {/* Logo and Company Name */}
-            <div className="flex items-center gap-1.5 sm:gap-2 max-w-[180px] sm:max-w-[200px] md:max-w-none">
-              <Link href="/">
-                <Image src="/LOGO EN.png" alt="Logo" width={50} height={50} className="h-16 w-auto rounded-full" />
-              </Link>
-              <span className="font-bold text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-lg truncate"> 3Capital  </span>
-            </div>
+       <div className="flex items-center gap-1.5 sm:gap-2 max-w-[250px] sm:max-w-[200px] md:max-w-none">
+      <Link href={`/${locale}`}>
+        <Image
+          src={t('logo')}
+          alt="Logo"
+          width={50}
+          height={50}
+          className="h-16 w-auto rounded-full"
+          priority
+        />
+      </Link>
 
+      <div className="flex flex-col items-start leading-tight">
+        {/* Company Name */}
+        <span className="font-extrabold text-[#003B95] text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-lg truncate">
+          {t('brand')}
+        </span>
+
+        {/* Subtitle */}
+        <span className="text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs text-gray-500 truncate">
+          {t('subtitle')}
+        </span>
+      </div>
+
+    </div>
             {/* Mobile Menu Button */}
             <button
               className="lg:hidden p-2 rounded-md border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
