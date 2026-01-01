@@ -8,6 +8,7 @@ import ContactSection from "@/components/contact-section";
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
 import { motion } from "framer-motion";
+import TeamSection from '@/components/teamSection';
 
 
 
@@ -56,6 +57,7 @@ export default function CertificatesPage() {
         </div>
       </section>
 
+<TeamSection/>
    
 
       {/* Contact Section */}

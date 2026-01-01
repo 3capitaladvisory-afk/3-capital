@@ -476,10 +476,10 @@
   },
   "certificatesPage": {
     "pageTitle": "Certificate Registration",
-    "heroTitle": "Professional Certificate Registration",
+    "heroTitle": "About our team  ",
     "breadcrumbs": {
       "home": "Home",
-      "certificates": "Certificates"
+      "certificates": "Our team"
     }
   },
   "certificateForm": {

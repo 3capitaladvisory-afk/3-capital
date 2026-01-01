@@ -471,10 +471,10 @@
 
   "certificatesPage": {
     "pageTitle": "تسجيل الشهادات",
-    "heroTitle": "تسجيل الشهادات المهنية",
+    "heroTitle": "  نبذا عن فريقنا",
     "breadcrumbs": {
       "home": "الرئيسية",
-      "certificates": "الشهادات"
+      "certificates": "فريقنا"
     }
   },
   "certificateForm": {
@@ -591,7 +591,7 @@
     "pageTitle": "التوظيف والدورات التدريبية",
     "breadcrumbs": {
       "home": "الرئيسية",
-      "hiring": "التوظيف"
+      "hiring": "التدريب"
     },
     "certificatesLogs": "سجل معنا",
     "career": {

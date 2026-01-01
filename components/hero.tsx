@@ -64,59 +64,7 @@ export default function Hero() {
 
               {/* Stats and Info */}
               <div className="flex flex-col items-center gap-8">
-                {/* Stats */}
-                <div className="flex items-center gap-4 rtl:flex-row-reverse">
-                  <div className="flex items-center gap-2 px-2 rtl:pl-0 rtl:pr-2">
-                    <span className="text-white font-medium rtl:text-right">4.9</span>
-                    <svg
-                      width="13"
-                      height="12"
-                      viewBox="0 0 13 12"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M5.54894 1.42705C5.8483 0.505738 7.1517 0.50574 7.45106 1.42705L8.0716 3.33688C8.20547 3.7489 8.58943 4.02786 9.02265 4.02786H11.0308C11.9995 4.02786 12.4023 5.26748 11.6186 5.83688L9.99395 7.01722C9.64347 7.27187 9.49681 7.72323 9.63068 8.13525L10.2512 10.0451C10.5506 10.9664 9.4961 11.7325 8.71238 11.1631L7.08778 9.98278C6.7373 9.72813 6.2627 9.72814 5.91221 9.98278L4.28761 11.1631C3.5039 11.7325 2.44942 10.9664 2.74878 10.0451L3.36932 8.13526C3.50319 7.72323 3.35653 7.27186 3.00604 7.01722L1.38144 5.83688C0.597731 5.26748 1.00051 4.02786 1.96923 4.02786H3.97735C4.41057 4.02786 4.79453 3.7489 4.9284 3.33688L5.54894 1.42705Z"
-                        fill="#FFB81F"
-                      />
-                    </svg>
-                  </div>
-                  <div className="flex -space-x-6 rtl:space-x-reverse rtl:space-x-6">
-                    <div
-                      className="w-[50px] h-[50px] rounded-full bg-[#EDEDED] flex items-center justify-center transform hover:scale-110 transition-transform"
-                      style={{
-                        zIndex: 0,
-                        marginInlineStart: "-15px",
-                        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                      }}
-                    >
-                      <span className="text-[#05509F] font-semibold text-sm">
-                        +200
-                      </span>
-                    </div>
-                    {["/img4.png", "/img.png", "/img2.png", "/img.png"].map(
-                      (avatar, i) => (
-                        <div
-                          key={i}
-                          className="w-[50px] h-[50px] rounded-full border-3 border-white overflow-hidden transform transition-transform hover:scale-110"
-                          style={{
-                            zIndex: 40 - i * 10,
-                            marginInlineStart: i > 0 ? "-15px" : "0",
-                            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                          }}
-                        >
-                          <Image
-                            src={avatar}
-                            alt={`Avatar ${i + 1}`}
-                            width={50}
-                            height={50}
-                            className="w-full h-full object-cover transition-transform hover:scale-105 filter brightness-105"
-                          />
-                        </div>
-                      )
-                    )}
-                  </div>
-                </div>
+               
 
                 {/* Tags */}
                 <div className="flex flex-col items-center gap-6 text-white">
