@@ -7,8 +7,8 @@ import { Link } from "@/lib/navigation";
 import ContactSection from "@/components/contact-section";
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
-import { motion } from "framer-motion";
 import TeamSection from '@/components/teamSection';
+import PartnersSection from "@/components/partners-section";
 
 
 
@@ -58,6 +58,8 @@ export default function CertificatesPage() {
       </section>
 
 <TeamSection/>
+
+<PartnersSection/>
    
 
       {/* Contact Section */}

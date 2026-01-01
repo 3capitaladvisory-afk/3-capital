@@ -5,7 +5,6 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Image from "next/image";
 import FaqSection from "@/components/faq-section";
-import PartnersSection from "@/components/partners-section";
 import TestimonialsSection from "@/components/testimonials-section";
 import { Link } from "@/lib/navigation";
 import { motion } from "framer-motion";
@@ -164,7 +163,6 @@ export default function HiringPage() {
 
         {/* Certificate Registration Form */}
       <CertificateRegistrationForm />
-  
 
       <TestimonialsSection />
       <FaqSection />

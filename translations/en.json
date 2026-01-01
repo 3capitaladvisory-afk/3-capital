@@ -644,7 +644,13 @@
       "position": "Trusted financial expert",
       "experienceTitle": "Professional and Academic Experience:",
       "experience": "Mahmoud is a trusted financial expert with over 15 years of experience in financial reporting, budgeting, financial management, and management consulting. He advises executive management and business leaders on optimizing financial performance and supporting informed strategic decision-making."
-    }
+    },
+    "partners": {
+  "label": "Partners",
+  "title": "We are proud to partner with leaders across various sectors!",
+  "description": "Our partnerships are the foundation of our success and continuity"
+}
+
   },
   "financialPage": {
     "pageTitle": "Financial Consulting",
