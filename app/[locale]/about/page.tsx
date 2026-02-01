@@ -172,6 +172,7 @@ export default function AboutSection() {
             </div>
 
             <h2 className="text-[#05509F] text-3xl sm:text-4xl lg:text-[52px] font-extrabold leading-tight lg:leading-[53px]">{t('ceo.name')}</h2>
+            <h4 className="text-[#05509F] text-1xl sm:text-2xl lg:text-[32px] font-extrabold leading-tight lg:leading-[53px]">{t('ceo.name-sup')}</h4>
 
             <div className="flex flex-col gap-8 lg:gap-12 text-justify text-base sm:text-lg lg:text-[18px] leading-relaxed lg:leading-[40px] text-black">
               <p>{t('ceo.paragraph1')}</p>
@@ -191,7 +192,7 @@ export default function AboutSection() {
 
           <div className="w-full lg:w-[820px] h-[400px] sm:h-[500px] lg:h-[775px] relative rounded-[30px] sm:rounded-[50px] lg:rounded-[100px] overflow-hidden">
             <Image
-              src="/CFO-Services.jpg"
+              src="/sameh.jpeg"
               alt={t('ceo.imageAlt')}
               fill
               className="object-cover"

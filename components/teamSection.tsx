@@ -225,7 +225,7 @@ function TeamMember({
             alt={name}
             width={96}
             height={96}
-            className="object-cover w-full h-full"
+            className="object-contain bg-white w-full h-full"
           />
         </div>
 
