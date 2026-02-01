@@ -60,7 +60,7 @@ export default function WhyUs() {
               src="/LOGO-AR.png"
               alt="Why Choose Us"
               fill
-              className="object-cover"
+              className="object-contain px-3"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#05509F]/20 to-transparent" />
           </div>

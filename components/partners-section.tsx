@@ -25,30 +25,38 @@ export default function PartnersSection() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-8 mt-12 lg:mt-16">
-          <div className="bg-[#F8F8F8] p-6 lg:p-10 flex items-center justify-center h-[200px] lg:h-[320px] rounded-2xl">
+          <div className="bg-[#F8F8F8] p-6 lg:p-10 flex items-center justify-center h-[200px] lg:h-[220px] rounded-2xl">
             <img
               src="/cropped-tamkeen-co.-logo.png"
               alt={t('partners.label')}
               className="max-w-full max-h-full object-contain"
             />
           </div>
-          <div className="bg-[#F8F8F8] p-6 lg:p-10 flex items-center justify-center h-[200px] lg:h-[320px] rounded-2xl">
+          <div className="bg-[#F8F8F8] p-6 lg:p-10 flex items-center justify-center h-[200px] lg:h-[220px] rounded-2xl">
             <img
               src="/WhatsApp Image 2025-12-31 at 4.14.49 PM.jpeg"
               alt={t('partners.label')}
               className="max-w-full max-h-full object-contain"
             />
           </div>
-          <div className="bg-[#F8F8F8] p-6 lg:p-10 flex items-center justify-center h-[200px] lg:h-[320px] rounded-2xl">
+          <div className="bg-[#F8F8F8] p-6 lg:p-10 flex items-center justify-center h-[200px] lg:h-[220px] rounded-2xl">
             <img
               src="/WhatsApp Image 2025-12-31 at 4.14.49 PM (1).jpeg"
               alt={t('partners.label')}
               className="max-w-full max-h-full object-contain"
             />
           </div>
-          <div className="bg-[#F8F8F8] p-6 lg:p-10 flex items-center justify-center h-[200px] lg:h-[320px] rounded-2xl">
+          <div className="bg-[#F8F8F8] p-6 lg:p-10 flex items-center justify-center h-[200px] lg:h-[220px] rounded-2xl">
             <img
-              src="/WhatsApp Image 2025-12-31 at 4.14.49 PM.jpeg"
+              src="/Golden-solutions.jfif"
+              alt={t('partners.label')}
+              className="max-w-full max-h-full object-contain"
+            />
+          </div>
+          
+          <div className="bg-[#F8F8F8] p-6 lg:p-10 flex items-center justify-center h-[200px] lg:h-[220px] rounded-2xl">
+            <img
+              src="/sisco.png"
               alt={t('partners.label')}
               className="max-w-full max-h-full object-contain"
             />

@@ -628,7 +628,18 @@
         "title": "FMAA",
         "subtitle": "Financial and Managerial Accounting Associate",
         "issuer": "Institute of Management Accountants (USA)"
+      },
+      "financialStatements": {
+        "title": "Financial Statements Preparation ",
+        "subtitle": "A practical course in preparing and analyzing financial statements",
+        "issuer": "A specialized training program in financial accounting"
+      },
+      "advancedIndustrialCosting": {
+        "title": "Advanced Industrial Costing",
+        "subtitle": "An advanced course in industrial cost accounting and cost analysis",
+        "issuer": "A specialized training program in cost accounting"
       }
+
     },
     "team": {
       "title": "Our Team",
@@ -638,7 +649,7 @@
       "name": "Sameh Said , CMA",
       "position": "Founder and CEO",
       "experienceTitle": "Professional and Academic Experience:",
-      "experience": "More than 17 years of experience in business, corporate finance, and financial consulting.",
+"experience": "Chief Executive Officer of 3 Capital Office for Accounting, Auditing, and Financial & Tax Consulting, with over 17 years of experience in auditing, financial, administrative, and strategic management. His experience includes serving as a Chief Financial Officer (CFO) for large business groups as well as holding companies and major corporations. He has extensive expertise across various industrial, commercial, contracting, service, and investment sectors. He is a statutory auditor for joint-stock companies in the Arab Republic of Egypt and holds the Certified Management Accountant (CMA-US) certification from the United States, a Diploma in International Financial Reporting Standards (IFRS), and a certification in Digital Transformation Execution and Oracle ERP implementation in large enterprises.",
          "image": "../sameh.jpeg"
     },
     "teamMember-2": {

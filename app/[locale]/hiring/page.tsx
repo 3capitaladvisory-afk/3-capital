@@ -118,7 +118,7 @@ export default function HiringPage() {
               </div>
               <p className="text-[#475467] text-lg leading-8 mb-6">
                 {t('training.description')}
-                <a href="mailto:Customercare@3capital-advisory.com" className="text-primary font-bold hover:underline"> Customercare@3capital-advisory.com</a>
+                <a href="mailto:Training@3capital-advisory.com" className="text-primary font-bold hover:underline"> Training@3capital-advisory.com</a>
               </p>
               {/* Certificates Section */}
               {/* Certificates Section */}
@@ -147,7 +147,18 @@ export default function HiringPage() {
                   <span className="text-gray-700">{t('certificates.fmaa.subtitle')}</span>
                   <span className="text-sm text-gray-500">{t('certificates.fmaa.issuer')}</span>
                 </div>
-
+                {/* Certificate 5 */}
+                <div className="bg-white rounded-xl shadow p-5 border border-gray-100 flex flex-col gap-2">
+                  <span className="font-bold text-primary">{t('certificates.financialStatements.title')}</span>
+                  <span className="text-gray-700">{t('certificates.financialStatements.subtitle')}</span>
+                  <span className="text-sm text-gray-500">{t('certificates.financialStatements.issuer')}</span>
+                </div>
+                {/* Certificate 6 */}
+                 <div className="bg-white rounded-xl shadow p-5 border border-gray-100 flex flex-col gap-2">
+                  <span className="font-bold text-primary">{t('certificates.advancedIndustrialCosting.title')}</span>
+                  <span className="text-gray-700">{t('certificates.advancedIndustrialCosting.subtitle')}</span>
+                  <span className="text-sm text-gray-500">{t('certificates.advancedIndustrialCosting.issuer')}</span>
+                </div>
                 <div className="col-span-1 sm:col-span-2 mt-4 flex justify-center">
                   <Link href="/certificates">
                     <button className="bg-[#05509F] hover:bg-[#05509F]/90 text-white font-bold py-3 px-8 rounded-[40px] transition-all">

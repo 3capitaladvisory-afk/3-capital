@@ -78,7 +78,7 @@ export default function AboutSection() {
               src="/LOGO-AR.png"
               alt={t('aboutUs.imageAlt')}
               fill
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         </div>
@@ -191,7 +191,7 @@ export default function AboutSection() {
 
           <div className="w-full lg:w-[820px] h-[400px] sm:h-[500px] lg:h-[775px] relative rounded-[30px] sm:rounded-[50px] lg:rounded-[100px] overflow-hidden">
             <Image
-              src="/image-2.png"
+              src="/CFO-Services.jpg"
               alt={t('ceo.imageAlt')}
               fill
               className="object-cover"

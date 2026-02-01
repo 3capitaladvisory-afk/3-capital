@@ -26,7 +26,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   return (
     <article className="py-28 px-4 sm:px-6 lg:px-[100px]">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-2xl sm:text-3xl lg:text-3xl font-bold text-[#05509F] mb-8">
+        <h1 className="text-2xl sm:text-3xl pt-9 lg:text-3xl font-bold text-[#05509F] mb-8">
           {t(`${articleId}.title`)}
         </h1>
         
