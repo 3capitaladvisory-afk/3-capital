@@ -230,7 +230,7 @@ function TeamMember({
         </div>
 
         <h3 className="text-primary text-[24px] font-bold mb-2">{name}</h3>
-        <p className="text-[#475467] text-lg mb-6">{position}</p>
+        <p className="text-[#475467] text-lg mb-6">{position }  CMA, CA, DipIFRS, ORACLE, SAP </p>
 
         <div className="w-full max-w-[600px] bg-[#FAFAFA] rounded-2xl p-6">
           <h4 className="text-primary text-[20px] font-bold mb-4">
