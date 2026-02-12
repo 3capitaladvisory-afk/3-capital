@@ -69,7 +69,7 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-start mt-12 md:mt-16">
           <h3 className="text-[#05509F] text-xl md:text-2xl font-bold mb-4 md:mb-6">{t('followUs')}</h3>
           <div className="flex gap-3">
-            <Link href="https://www.facebook.com/profile.php?id=61575252262841" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors">
+            <Link href="https://www.facebook.com/profile.php?id=100064848781769" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors">
               <img src="/facebook.png" alt="Facebook" className="w-10 h-8 md:w-12 md:h-10" />
             </Link>
             <Link href="https://www.tiktok.com/@3capital_financ_advisory?lang=en" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors">
