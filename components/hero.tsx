@@ -172,29 +172,30 @@ export default function Hero() {
 
 
        
-        ].map((social, index) => (
-          <a
-            key={index}
-            href={social.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-[50px] h-[50px] rounded-full bg-white/20 hover:bg-white/30 transition-colors flex items-center justify-center group"
-          >
-            <svg
-              width="17"
-              height="17"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d={social.icon}
-                fill="white"
-                className="group-hover:fill-white/90 transition-colors"
-              />
-            </svg>
-          </a>
-        ))}
+].map((social, index) => (
+  <a
+    key={index}
+    href={social.href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-[50px] h-[50px] rounded-full bg-white/20 hover:bg-white/30 transition-colors flex items-center justify-center group"
+  >
+    <svg
+      width="17"
+      height="17"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d={social.icon}
+        fill="white"
+        className="group-hover:fill-white/90 transition-colors"
+      />
+    </svg>
+  </a>
+))}
+
       </div>
     </section>
   );

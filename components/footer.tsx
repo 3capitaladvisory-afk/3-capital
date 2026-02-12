@@ -66,38 +66,66 @@ export default function Footer() {
         </div>
 
         {/* Social Media Section */}
-        <div className="flex flex-col items-center md:items-start mt-12 md:mt-16">
-          <h3 className="text-[#05509F] text-xl md:text-2xl font-bold mb-4 md:mb-6">{t('followUs')}</h3>
-          <div className="flex gap-3">
-            <Link href="https://www.facebook.com/profile.php?id=100064848781769" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors">
-              <img src="/facebook.png" alt="Facebook" className="w-10 h-8 md:w-12 md:h-10" />
-            </Link>
-            <Link href="https://www.tiktok.com/@3capital_financ_advisory?lang=en" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors">
-              <img src="/tiktok.png" alt="TikTok" className="w-10 h-8 md:w-12 md:h-10" />
-            </Link>
-            <Link href="https://www.instagram.com/3capital_financial_advisors?fbclid=IwY2xjawJjdXpleHRuA2FlbQIxMAABHjlJZGO0txXZ1Y5zSyNIMX64arj0f9Am9XOgRu9jf3LeBUooVwLlW8VR-iWZ_aem_oqPYCZSRzFehh_4R4Z64Kg" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors">
-              <img src="/instagram.png" alt="Instagram" className="w-10 h-8 md:w-12 md:h-10" />
-            </Link>
-            <Link href="https://x.com/3capital_advis" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors">
-              <img src="/xplat.png" alt="X" className="w-10 h-8 md:w-12 md:h-10" />
-            </Link>
-            <Link href="https://www.linkedin.com/company/3capital-financail-advisors/" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors">
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="white">
-                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-              </svg>
-            </Link>
+      <div className="flex gap-3">
 
-            <Link
-              href="https://wa.me/2010297005340"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center transition-colors"
-            >
-              <FaWhatsapp className="text-white w-5 h-5" />
-            </Link>
+  <a
+    href="https://www.facebook.com/profile.php?id=100064848781769"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors"
+  >
+    <img src="/facebook.png" alt="Facebook" className="w-10 h-8 md:w-12 md:h-10" />
+  </a>
 
-          </div>
-        </div>
+  <a
+    href="https://www.tiktok.com/@3capital_financ_advisory?lang=en"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors"
+  >
+    <img src="/tiktok.png" alt="TikTok" className="w-10 h-8 md:w-12 md:h-10" />
+  </a>
+
+  <a
+    href="https://www.instagram.com/3capital_financial_advisors"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors"
+  >
+    <img src="/instagram.png" alt="Instagram" className="w-10 h-8 md:w-12 md:h-10" />
+  </a>
+
+  <a
+    href="https://x.com/3capital_advis"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors"
+  >
+    <img src="/xplat.png" alt="X" className="w-10 h-8 md:w-12 md:h-10" />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/company/3capital-financail-advisors/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center hover:bg-[#05509F]/90 transition-colors"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="white">
+      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+    </svg>
+  </a>
+
+  <a
+    href="https://wa.me/2010297005340"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#05509F] flex items-center justify-center"
+  >
+    <FaWhatsapp className="text-white w-5 h-5" />
+  </a>
+
+</div>
+
       </div>
 
       {/* Copyright Section */}
